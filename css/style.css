@@ -1,0 +1,70 @@
+.ItemsBox{
+    background-color: #fff;
+    color: #000;
+    border-color: #777;
+    font-size: 2vh;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+
+.AddButtom{
+    background-color: #eee;
+    border-style: none;
+    color: #777;
+    font-size: 2vh;
+    line-height: 1.5;
+}
+
+.RemoveButtom{
+    background-color: #eee;
+    border-style: none;
+    color: #690000;
+    font-size: 2vh;
+    line-height: 1.5;
+}
+
+input{
+    background-color: #eee;
+    border-style: none;
+    color: #777;
+    font-size: 2vh;
+    line-height: 1.5;
+}
+
+.ItemListZoje{
+    background-color: #eee;
+    border-style: none;
+    color: #777;
+    font-size: 2vh;
+    line-height: 1.5;
+}
+
+.ItemListFard{
+    background-color: #eee;
+    border-style: none;
+    color: #777;
+    font-size: 2vh;
+    line-height: 1.5;
+}
+
+.ItemListZoje,.ItemListFard,input,.AddButtom:hover {
+    color: #000;
+    transition: 0.2s;
+}
+
+.RemoveButtom:hover{
+    color: #ff0000;
+    transition: 0.2s;
+}
+
+@media (max-width: 500px) {
+    .ItemListZoje,.ItemListFard{
+        font-size: 1.2vh;
+    }
+    input{
+        font-size: 1.2vh;
+    }
+    .AddButtom{
+        font-size: 1.2vh;
+    }
+}

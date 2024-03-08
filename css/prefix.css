@@ -1,0 +1,64 @@
+html{
+    -webkit-text-size-adjust: 100%;
+    direction: rtl;
+    overflow-x: hidden;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -ms-overflow-style: scrollbar;
+}
+
+body{
+    text-align: center;
+    margin: 10vh 10vh 10vh 10vh;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+}
+
+input{
+    border-radius: 0vh 10vh 10vh 0vh;
+    padding: 0.8vh 3vh 0.8vh 3vh;
+}
+
+.AddButtom{
+    border-radius: 10vh 0vh 0vh 10vh;
+    padding: 0.8vh 3vh 0.8vh 3vh;
+}
+
+.RemoveButtom{
+    padding: 0vh 3vh 0vh 3vh;
+}
+
+.ItemsBox{
+    padding: 0.8px 3px 0.8px 3px;
+}
+
+.ItemListZoje{
+    justify-content: right !important;
+    text-align: right !important;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0.8vh 3vh 0.8vh 3vh;
+}
+
+.ItemListFard{
+    justify-content: right !important;
+    text-align: right !important;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0.8vh 3vh 0.8vh 3vh;
+}
+
+@media (max-width: 500px) {
+    body{
+        margin: 7vh 3vh 7vh 3vh;
+    }
+    input{
+        width: 50%;
+    }
+    .AddButtom{
+        width: 10%;
+    }
+}
+

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Parvaneh";
+    src: url("../fonts/Parvaneh.ttf");
+}
+
+.ItemListZoje,.ItemListFard{
+    font-family: "Parvaneh";
+}
+
+input{
+    font-family: "Parvaneh";
+    font-weight: bolder;
+}
+
+.AddButtom{
+    font-family: "Parvaneh";
+}
+
+.RemoveButtom{
+    font-family: "Parvaneh";
+}
