@@ -1,5 +1,5 @@
-# Project Title
-To Do List, my first Github project  
+# To Do List
+my first Github project  
 
 ## Table of Contents
 
